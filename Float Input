@@ -1,0 +1,34 @@
+Question :
+
+Python provides built-in functions to perform input and output tasks.
+
+Two commonly used functions for I/O (Input/Output) are input() and print().
+
+Write a program to get a float as input and print it.
+
+The input() function reads input from the keyboard. When the user enters a float, it is stored in the variable test_float.
+
+In Python, the float() function is used to convert the input string to a floating-point number. Unlike C, Python does not use format specifiers like %f, but we can use formatted strings to control the precision.
+
+Use "{:.2f}".format() or an f-string (f"{value:.2f}") to display the float value with 2 decimal places.
+
+Sample Input - 1:
+
+56.2425
+
+Sample Output - 1:
+
+56.24
+
+Sample Input - 2:
+
+92.00
+
+Sample Output - 2:
+
+92.00
+
+Code :
+
+test_float=float(input("Enter the float: "))
+print(f"{test_float:.2f}")
