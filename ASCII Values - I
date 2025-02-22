@@ -1,0 +1,20 @@
+Question :
+ASCII - American Standard Code for Information Interchange.
+
+Write a program to get a character as input and print its ASCII value.
+
+When a character is entered, the character itself is not stored as a number. Instead, we can retrieve its ASCII value using the ord() function.
+
+Unlike C, Python does not use format specifiers like %c to display characters; instead, we can directly print the character and its ASCII value.
+
+Sample Input :
+
+g
+
+Sample Output:
+
+103
+
+Code :
+test_ascii=input("Enter the char: ")
+print(ord(test_ascii))
