@@ -1,0 +1,33 @@
+Question :
+Python provides built-in functions to perform input and output tasks.
+
+Two commonly used functions for I/O (Input/Output) are input() and print().
+
+Write a program to get a string as input and print it.
+
+The input() function reads input from the keyboard. When the user enters a string, it is stored in the variable test_string.
+
+Unlike C, Python does not require a format string like %s since strings are handled as objects.
+
+There is no need for an address operator (&) as Python automatically manages memory.
+
+Sample Input - 1:
+
+Programmer
+
+Sample Output - 1:
+
+Programmer
+
+
+Sample Input - 2:
+
+897
+
+Sample Output - 2:
+
+897
+
+Code :
+test_string=input("Enter the string: ")
+print(test_string)
