@@ -1,0 +1,22 @@
+Question :
+
+Python provides built-in functions to perform input and output tasks.
+
+Two commonly used functions for I/O (Input/Output) are input() and print().
+
+Write a program to get a character as input and print it.
+
+The input() function reads input from the keyboard. When the user enters a character, it is stored in the variable test_character.
+
+In Python, there is no need for a format specifier like %c; the input() function automatically reads input as a string.
+
+Sample Input:
+
+z
+
+Sample Output:
+
+z
+
+Answer : test_character=input("Enter the character: ")
+         print(test_character)
