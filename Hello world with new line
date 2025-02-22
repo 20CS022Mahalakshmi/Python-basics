@@ -1,0 +1,13 @@
+Question :
+
+There are a few escape sequences used for formatting output in programming languages. You have to use the \n escape sequence to provide a new line between words in the output console.
+
+Enter the escape sequence directly into the print() statement within the inverted commas ("mes\nsage").
+
+Sample Output:
+
+Hello World
+Hello World
+
+Answer : print("Hello World\nHello World")
+
